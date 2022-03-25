@@ -9,7 +9,6 @@ const userStore = UserStore();
   <div class="container">
     <nav class="navbarContainer">
       <button><RouterLink to="/">Create User</RouterLink></button>
-<!--      <button><RouterLink to="/createUser">Create User</RouterLink></button>-->
       <button><RouterLink to="/room">Room</RouterLink></button>
       <span v-if="userStore.userName.length > 0">
         | Logged in as: {{ userStore.userName }}</span>
